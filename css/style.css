@@ -26,7 +26,7 @@ h4 {
   border: 1px solid #22aa44;
   box-shadow:  -1px 1px #22aa44, -2px 2px #22aa44, -3px 3px #22aa44, -4px 4px #22aa44, -5px 5px #22aa44;
   background-color: #44cc66;
-  box-sizing: border-box;
+
 }
 
 .indifferent {
@@ -45,12 +45,18 @@ h4 {
 .small {
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
+  border: 1px solid gray;
 }
 
 .med {
   width: 203.5%;
+  box-sizing: border-box;
+  border: 1px solid gray;
 }
 
 .large {
   width: 303%;
+  box-sizing: border-box;
+  border: 1px solid gray;
 }
